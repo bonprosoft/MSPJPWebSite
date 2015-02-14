@@ -150,24 +150,17 @@ body{
   border:1px soild black;
 }
 
-.content:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.content__left,
-.content__right{
+.blog__left,
+.blog__right{
     box-sizing: border-box;
     padding: 20px;
 }
-.content__left{
+.blog__left{
     width: 630px;
     margin-left: 20px;
-    float: left;
 }
-.content__right{
+.blog__right{
     width: 350px;
-    float: right;
     margin-right: 20px;
 }
 
