@@ -50,8 +50,46 @@
         margin-right: 30px;
     }
 
-/* Blogs - ブログ一覧
+/* Profiles - Top 一覧
    ========================================================================== */
+
+.profile_list{
+  display:block;
+  margin:0 auto;
+  width:1020px;
+}
+
+
+.profile_box {
+  display:block;
+  text-decoration:none;
+  width:200px;
+  border-radius:1px;
+  background-color:rgba(120,120,120,0.4);
+  height:300px;
+  float:left;
+  margin:20px 27px;
+  color:black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.profile_icon{
+  display:block;
+  margin:3px;
+  width:194px;
+  height:194px;
+}
+
+.profile_header{
+  margin:0 5px;
+}
+
+
+.profile_content{
+  font-size:12px;
+  margin:4px 5px;
+}
+
 
 /* Post - ブログ記事
    ========================================================================== */
