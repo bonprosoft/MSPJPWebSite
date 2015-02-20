@@ -15,6 +15,11 @@
       margin-bottom:20px;
       /*Slickのbuttomを強制的に動かしてる*/
     }
+
+    .slick-list{
+      width:100%;
+      height:300px;
+    }
     .topinfo:after{
         content: "";
         display: block;
@@ -55,8 +60,32 @@
         margin-right: 30px;
     }
 
-/* Blogs - ブログ一覧
+/* Slider スライダー部分
    ========================================================================== */
+
+   .topslider{
+     width:100%;
+     max-height:400px;
+     min-height:300px;
+   }
+
+   div.slider_box{
+     position:relative;
+     width:100%;
+     max-height:400px;
+     min-height:300px;
+     background-image:url('http://dummyimage.com/1020x300/ccc/fff');
+   }
+   .slider_box .slider_content{
+     position:absolute;
+     left:0;
+     bottom:0;
+     vertical-align:bottom;
+     padding:8px;
+     margin:4px;
+     background-color:rgba(50,50,50,0.3);
+   }
+
 
 /* Post - ブログ記事
    ========================================================================== */

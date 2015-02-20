@@ -39,9 +39,37 @@
     <div class="main">
         <div class="container">
             <div class="topslider">
+              <div class="slider_box">
+                <div class="slider_content">
+                  <h2 class="slider_title">Title</h2>
+                  <div class="slider_date">15.02.19</div>
+                  <div class="slider_desc">This is description.</div>
+                </div>
+                <!-- width:100% height:auto; -->
+              </div>
+
+              <div class="slider_box">
+                <div class="slider_content">
+                  <h2 class="slider_title">Title</h2>
+                  <div class="slider_date">15.02.19</div>
+                  <div class="slider_desc">This is description.</div>
+                </div>
+                <!-- width:100% height:auto; -->
+              </div>
+
+              <div class="slider_box">
+                <div class="slider_content">
+                  <h2 class="slider_title">Title</h2>
+                  <div class="slider_date">15.02.19</div>
+                  <div class="slider_desc">This is description.</div>
+                </div>
+                <!-- width:100% height:auto; -->
+              </div>
+
+<!--
               <img src="http://dummyimage.com/1020x300/ccc/fff" alt="">
               <img src="http://dummyimage.com/1020x300/ccc/fff" alt="">
-              <img src="http://dummyimage.com/1020x300/ccc/fff" alt="">
+              <img src="http://dummyimage.com/1020x300/ccc/fff" alt=""> -->
                 <!-- carousel -->
             </div>
             <div class="topinfo">
@@ -100,6 +128,7 @@
     <script>
     $(document).ready(function(){
       $('.topslider').slick({
+        accessibility:true,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
