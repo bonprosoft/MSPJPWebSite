@@ -7,39 +7,33 @@
 }
 
 .headline{
-    display:table;
-    width:100%;
     margin: 20px 0px 20px 0px;
     border-bottom: 5px solid #50A320;
     /*x軸のみ伸びる画像に変更*/
 }
-
-.headline_title{
-    display:table-cell;
-    width:60%;
+.headline:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.headline__title{
+    float: left;
     height: 24px;
+    font-size: 30px;
     font-family: 'Segoe UI Semibold';
     line-height:24px;
     padding:0 0 10px 30px;
 }
 
-
-
-/* Top - サイトトップ
-   ========================================================================== */
-.topslider{
-    margin-bottom: 30px;
-}
-
-.sns_links {
+.headline__snsbtns{
   display:table;
   float:right;
 }
 
-.sns_links .sns_link{
+.headline__snsbtn{
   display:table-cell;
+  vertical-align: middle;
   width:100px;
-  border:1px soild black;
 }
 
 .blog__left,
