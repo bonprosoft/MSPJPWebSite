@@ -26,7 +26,8 @@ body{
 /* container: 横幅1020px, 中央寄せの枠 */
 .container{
     margin: 0 auto;
-    width: 1020px;
+    max-width:1020px;
+    min-width:500px;
 }
 
 /* box: 要素の左右への振り分け */
@@ -52,6 +53,29 @@ body{
 /* ==========================================================================
    Header - ヘッダー
    ========================================================================== */
+
+@media screen and (max-width:1020px) {
+  .box > .box__left{
+    text-align:center;
+    float:none;
+  }
+
+  .box > .box__right{
+    float:none;
+    text-align:center;
+  }
+
+  .box > .box__right > nav{
+    margin:0 auto;
+  }
+
+  div.navbar{
+    margin-bottom:10px;
+  }
+
+}
+
+
 header{
     z-index:100;
     width: 100%;
@@ -65,9 +89,12 @@ header{
         repeat;
 }
 header .title{
+    width:100%;
     font-family: 'Segoe UI Semibold';
     font-size:26px;
     padding:20px 0;
+    margin:0 20px;
+    min-width:500px;
 }
 /*
 header .msplogo{
@@ -80,7 +107,7 @@ header .menu{
 }*/
 
 header nav {
-  margin:30px 0;
+  margin:30px 10px;
   display:table;
   margin-right:20px;
 }
