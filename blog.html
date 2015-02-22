@@ -40,14 +40,14 @@
     <div class="main">
       <div class="container">
         <div class="headline">
-          <h1 class="headline_title">Blog</h1>
-          <div class="sns_links clearfix">
-            <!-- ここをTable, 子をTable cellに-->
-            <div class="sns_link twitter_btn">
+          <h2 class="headline__title">Blog</h2>
+          <div class="headline__snsbtns">
+            <div class="headline__snsbtn twitter_btn">
               <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
               <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
-            <div class="sns_link facebook_btn">
+
+            <div class="headline__snsbtn facebook_btn">
               <div id="fb-root"></div>
               <script>(function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -56,81 +56,79 @@
                 js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1439419099652278&version=v2.0";
                 fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));</script>
-              facebook
               <div class="fb-like" data-href="https://www.facebook.com/MicrosoftStudentPartnersJAPAN" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
             </div>
-            <div class="sns_link googleplus_btn">
-              google
+
+            <div class="headline__snsbtn googleplus_btn">
               <div class="g-plusone"></div>
             </div>
           </div>
         </div>
-        <div class="box">
-      	  <div class="box__left blog__left">
-            <a class="blog" href="#">
-              <div class="box content">
-                <div class="box__left content__left">
-                  <img class="clearfix" src="img/logo.png" alt=""/>
-                </div>
-                <div class="box__right content__right clearfix">
-                  <h2 class="content_title"><i class="fa fa-star"></i>Information</h2>
-                  <!-- 場合によってはイメージで -->
-                  <div class="outine">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                  <div class="content_info">by *** | 2014/11/29 | Comment(3)</div>
-                </div>
-              </div>
-            </a>
 
-            <a class="blog" href="#">
-              <div class="box content">
-                <div class="box__left content__left">
-                  <img class="clearfix" src="img/logo.png" alt=""/>
-                </div>
-                <div class="box__right content__right clearfix">
-                  <h2 class="content_title"><i class="fa fa-star"></i>Information</h2>
-                  <!-- 場合によってはイメージで -->
-                  <div class="outine">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                  <div class="content_info">by *** | 2014/11/29 | Comment(3)</div>
-                </div>
+        <div class="main__content">
+          <article class="post">
+            <a href="#">
+              <div class="post__thumb">
+                <img src="img/logo.png" alt="">
+              </div>
+              <div class="post__content">
+                <h3 class="post__title">記事タイトル</h3>
+                <p class="post__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="post__info">by *** | 2014/11/29 | Comment(3)</p>
               </div>
             </a>
-
-            <a class="blog" href="#">
-              <div class="box content">
-                <div class="box__left content__left">
-                  <img class="clearfix" src="img/logo.png" alt=""/>
-                </div>
-                <div class="box__right content__right clearfix">
-                  <h2 class="content_title"><i class="fa fa-star"></i>Information</h2>
-                  <!-- 場合によってはイメージで -->
-                  <div class="outine">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                  <div class="content_info">by *** | 2014/11/29 | Comment(3)</div>
-                </div>
+          </article>
+         <article class="post">
+            <a href="#">
+              <div class="post__thumb">
+                <img src="img/logo.png" alt="">
+              </div>
+              <div class="post__content">
+                <h3 class="post__title">記事タイトル</h3>
+                <p class="post__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="post__info">by *** | 2014/11/29 | Comment(3)</p>
               </div>
             </a>
-
-            <a class="blog" href="#">
-              <div class="box content">
-                <div class="box__left content__left">
-                  <img class="clearfix" src="img/logo.png" alt=""/>
-                </div>
-                <div class="box__right content__right clearfix">
-                  <h2 class="content_title"><i class="fa fa-star"></i>Information</h2>
-                  <!-- 場合によってはイメージで -->
-                  <div class="outine">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
-                  <div class="content_info">by *** | 2014/11/29 | Comment(3)</div>
-                </div>
+          </article>
+         <article class="post">
+            <a href="#">
+              <div class="post__thumb">
+                <img src="img/logo.png" alt="">
+              </div>
+              <div class="post__content">
+                <h3 class="post__title">記事タイトル</h3>
+                <p class="post__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="post__info">by *** | 2014/11/29 | Comment(3)</p>
               </div>
             </a>
-            
-      	  </div>
-      	  <div class="box__right blog__right">
-      	    <div id="search"></div>
-            <div id="calendar"></div>
-      	  </div>
-      	</div>
+          </article>
+         <article class="post">
+            <a href="#">
+              <div class="post__thumb">
+                <img src="img/logo.png" alt="">
+              </div>
+              <div class="post__content">
+                <h3 class="post__title">記事タイトル</h3>
+                <p class="post__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p class="post__info">by *** | 2014/11/29 | Comment(3)</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="main__sidebar">
+          <div class="tmpbox">
+            Search
+          </div>
+          <div class="tmpbox">
+            Calender
+          </div>
+          <div class="tmpbox">
+            etc...
+          </div>
+        </div>
       </div>
     </div>
+
     <footer>
         <div class="container">
             <div class="box">
