@@ -4,10 +4,7 @@
 トップページ（headerとfooterはここを採用）
 
 ### profile.html
-MSPメンバーの一覧ページ（カラムが並ぶ）
-
-### profile-detail.html
-MSPメンバーの紹介ページ
+MSPのメンバー紹介ページ。カラムが4つ並ぶ。
 
 ### blog.html
 記事一覧ページ
