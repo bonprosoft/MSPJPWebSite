@@ -100,14 +100,14 @@ header .menu{
 header nav {
   margin:30px 0;
   display:table;
-  margin-right:20px;
+  /*margin-right:20px;*/
 }
 
 header .navbar_box {
   display:table-cell;
   width:60px;
   height:30px;
-  border-left:1px #333 solid;
+  border-left:1px #666 solid;
 }
 
 header .navbar_box a{
@@ -115,12 +115,12 @@ header .navbar_box a{
   line-height:30px;
   text-decoration:none;
   text-align:center;
-  color:#333;
+  color:#666;
   font-size:15px;
 }
 
 header .navbar_box:last-child{
-  border-right:1px #333 solid;
+  border-right:1px #666 solid;
 }
 
 /* ==========================================================================
@@ -134,6 +134,9 @@ footer{
     padding: 15px 0;
     background-image: url("../img/underline.png");
     background-repeat: repeat-x;
+}
+footer .footer-desc{
+    margin: 15px 0 0 20px;
 }
 footer .copyright{
     font-size: 12px;
