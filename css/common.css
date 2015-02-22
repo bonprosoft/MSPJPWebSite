@@ -124,11 +124,46 @@ header .navbar_box:last-child{
 }
 
 /* ==========================================================================
+   Main - メイン
+   ========================================================================== */
+.main{
+    padding: 150px 0 50px; /* ヘッダーの分だけ下げる */
+}
+
+/* 見出し
+   ========================================================================== */
+  .headline{
+      margin: 20px 0px 20px 0px;
+      border-bottom: 5px solid #50A320;
+      /*x軸のみ伸びる画像に変更*/
+  }
+  .headline:after{
+      content: "";
+      display: block;
+      clear: both;
+  }
+  .headline__title{
+      float: left;
+      height: 24px;
+      font-size: 30px;
+      font-family: 'Segoe UI Semibold';
+      line-height:24px;
+      padding:0 0 10px 30px;
+  }
+  .headline__snsbtns{
+    display:table;
+    float:right;
+  }
+
+  .headline__snsbtn{
+    display:table-cell;
+    vertical-align: middle;
+    width:100px;
+  }
+
+/* ==========================================================================
   Footer- フッター
    ========================================================================== */
-
-
-
 footer{
     width: 100%;
     padding: 15px 0;

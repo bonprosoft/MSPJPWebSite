@@ -1,41 +1,10 @@
-
 /* ==========================================================================
-   Main - メイン部分
+   Blog - アーカイブページ
    ========================================================================== */
-.main{
-    padding: 150px 0 50px; /* ヘッダーの分だけ下げる */
-}
 
-.headline{
-    margin: 20px 0px 20px 0px;
-    border-bottom: 5px solid #50A320;
-    /*x軸のみ伸びる画像に変更*/
-}
-.headline:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.headline__title{
-    float: left;
-    height: 24px;
-    font-size: 30px;
-    font-family: 'Segoe UI Semibold';
-    line-height:24px;
-    padding:0 0 10px 30px;
-}
-
-.headline__snsbtns{
-  display:table;
-  float:right;
-}
-
-.headline__snsbtn{
-  display:table-cell;
-  vertical-align: middle;
-  width:100px;
-}
-
+/* Blogs - ブログ一覧
+   ========================================================================== */
+   
 .blog__left,
 .blog__right{
     box-sizing: border-box;
@@ -49,9 +18,6 @@
     max-width: 350px;
     margin-right: 20px;
 }
-
-/* Blogs - ブログ一覧
-   ========================================================================== */
 
 .blog{
   color:black;
