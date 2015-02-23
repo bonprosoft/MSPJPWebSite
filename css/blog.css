@@ -6,6 +6,7 @@
    ========================================================================== */
 
 .post{
+  width: 100%;
   box-sizing: border-box;
   display: table;
   border: 1px solid #666;
@@ -20,6 +21,7 @@
   vertical-align: top;
 }
 .post__content{
+  width: 100%;
   display: table-cell;
   vertical-align: top;
   padding-left: 20px;
