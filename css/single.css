@@ -47,3 +47,6 @@
 }
 
 /* 以下，Wordpressで吐き出されるHTMLに合わせてCSSを書く */
+.report__body .report__image > img{
+  max-width: 100%;
+}
