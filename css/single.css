@@ -48,3 +48,60 @@
 }
 
 /* 以下，Wordpressで吐き出されるHTMLに合わせてCSSを書く */
+
+/* report body 内のh2 ~ h6, ul li , dl 等を追加 */
+.report__body h2 {
+  font-size:1.5em;
+  border-left:5px solid #696969;
+  border-bottom:1px solid #696969;
+  padding:4px 8px;
+  margin:5px;
+}
+.report__body h3 {
+  font-size:1.25em;
+  border-left:3px solid #696969;
+  border-bottom:1px solid #696969;
+  padding:2px 6px;
+  margin:5px;
+}
+.report__body h4 {
+  font-size:1.1em;
+  margin:5px 6px;
+}
+.report__body h5 {
+  font-size:1.025em;
+  margin:5px 7px;
+}
+.report__body h6 {
+  font-size:1em;
+  margin:5px 8px;
+}
+
+.report__body ul {
+
+}
+
+.report__body ul li {
+
+}
+
+.report__body dl{
+
+}
+
+.report__body dl dt {
+  font-size:1.5em;
+  border-left:5px solid #696969;
+  border-bottom:1px solid #696969;
+  padding:4px 8px;
+  margin:5px;
+}
+
+.report__body dl dd {
+  padding-bottom:4px;
+  border-bottom:1px solid #696969;
+}
+
+.report__body p{
+  margin:0 10px;
+}
