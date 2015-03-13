@@ -96,25 +96,25 @@ header{
 }
 header .title{
     font-family: 'Segoe UI Semibold';
-    font-size:26px;
+    font-size:36px;
     padding:20px 0;
 }
 
 header nav {
-  margin:30px 0;
+  margin:40px 0 30px 0;
   display:table;
 }
 
 header .navbar_box {
   display:table-cell;
   width:60px;
-  height:30px;
+  height:20px;
   border-left:1px #666 solid;
 }
 
 header .navbar_box a{
   display:block;
-  line-height:30px;
+  line-height:20px;
   text-decoration:none;
   text-align:center;
   color:#666;

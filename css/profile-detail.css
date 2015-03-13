@@ -35,3 +35,12 @@
 .profilepage__introduce{
   margin: 20px 0;
 }
+.profilepage__image{
+  text-align: center;
+}
+.profilepage__icon{
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}

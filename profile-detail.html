@@ -34,6 +34,7 @@
         </header>
         <div class="main">
             <div class="container">
+            	<div class="align-left"><a href="#">&laquo; メンバー一覧に戻る</a></div>
                 <div class="main__content">
                     <div class="profilepage">
                         <h3 class="profilepage__name">田中 太郎</h3>
@@ -94,6 +95,16 @@
                       </div>
                     </a>
                   </article>
+                  <div class="navigation">
+                    <div class="align-left"><a href="#">&laquo; ○○ ○○</a></div>
+                    <?php
+                    endif;
+                    if( get_next_post() ): ?>
+                    <div class="align-right"><a href="#">○○ ○○ &raquo;</a></div>
+                    <?php
+                        endif;
+                    ?>
+                </div>
 
                 </div>
                 <div class="main__sidebar">
