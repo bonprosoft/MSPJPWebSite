@@ -142,10 +142,6 @@ header .navbar_box:last-child{
 .main{
     padding: 150px 0 50px; /* ヘッダーの分だけ下げる */
 }
-.main__content a:link,
-.main__content a:visited{
-  color: #19568e;
-}
 .main:after{
   content: "";
   display: block;
